@@ -8,6 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <asp:ScriptManager ID="scriptManager" runat="server"></asp:ScriptManager>
         <div id="top-container">
             <div id="top" class="row">
                 <div class="columns">
