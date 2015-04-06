@@ -1,0 +1,126 @@
+----------------------------------------
+Timestamp: 3/24/2015 3:00:13 PM
+
+Message: HandlingInstanceID: 29fdfa79-84e5-49ff-9830-574770cc10f9
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+03/24/2015 11:00:13
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : ' Bottom' is not a valid identifier.
+Source : System.Web
+Help link : 
+FileName : Access failed
+VirtualPath : 
+Line : 0
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessException(System.Exception)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+Additional Info:
+
+MachineName : WOODARD
+TimeStamp : 3/24/2015 3:00:13 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5701.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/40/ROOT-4-130716824480514072
+ThreadIdentity : admin
+WindowsIdentity : IIS APPPOOL\.NET v4.5
+Requested URL : http://localhost:5102/Sitefinity/Template/2dcb3194-9783-6993-95aa-ff0000afc00d
+	Inner Exception
+	---------------
+	Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : ' Bottom' is not a valid identifier.
+	Source : System.Web
+	Help link : 
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessError(System.String)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessError(String message)
+	   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WOODARD
+
+App Domain: /LM/W3SVC/40/ROOT-4-130716824480514072
+
+ProcessId: 8608
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2640
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 3/24/2015 5:16:36 PM
+
+Message: HandlingInstanceID: 5025d5ba-480c-4d35-ae78-66b19c0b28ab
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+03/24/2015 13:16:36
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Request timed out.
+Source : 
+Help link : 
+WebEventCode : 3001
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2147467259
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WOODARD
+TimeStamp : 3/24/2015 5:16:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5701.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/40/ROOT-9-130716908424099138
+ThreadIdentity : admin
+WindowsIdentity : IIS APPPOOL\.NET v4.5
+Requested URL : http://localhost:5102/WebForm1.aspx
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WOODARD
+
+App Domain: /LM/W3SVC/40/ROOT-9-130716908424099138
+
+ProcessId: 8608
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:9128
+
+Extended Properties: 
+----------------------------------------

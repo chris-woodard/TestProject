@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,300,800,600' rel='stylesheet' type='text/css' />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="top-container">
+            <div id="top" class="row">
+                <div class="columns">
+                    <asp:ContentPlaceHolder ID="QuickContact" runat="server"></asp:ContentPlaceHolder>
+                </div>
+                <div class="columns">
+                    <asp:ContentPlaceHolder ID="TopControls" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        <header id="header" class="row">
+            <div id="logo" class="columns small-8">
+                <asp:ContentPlaceHolder ID="Logo" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            <div id="navigation" class="columns small-8">
+                <asp:ContentPlaceHolder ID="Navigation" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </header>
+        <div id="middle-container">
+            <asp:ContentPlaceHolder ID="PageLayout" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div id="social-container">
+            <div id="social">
+                <asp:ContentPlaceHolder ID="Social" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="footer-container">
+            <footer id="footer" class="row">
+                <div id="contact-info" class="columns">
+                    <asp:ContentPlaceHolder ID="ContactInfo" runat="server"></asp:ContentPlaceHolder>
+                </div>
+                <div id="feed" class="columns">
+                    <asp:ContentPlaceHolder ID="Feed" runat="server"></asp:ContentPlaceHolder>
+                </div>
+                <div id="newsletter-signup" class="columns">
+                    <asp:ContentPlaceHolder ID="Newsletter" runat="server"></asp:ContentPlaceHolder>
+                </div>
+                <div id="follow-us" class="columns">
+                    <asp:ContentPlaceHolder ID="FollowUs" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </footer>
+        </div>
+        <div id="bottom-container">
+            <div id="bottom" class="row">
+                <div class="columns">
+                    <asp:ContentPlaceHolder ID="Bottom" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
