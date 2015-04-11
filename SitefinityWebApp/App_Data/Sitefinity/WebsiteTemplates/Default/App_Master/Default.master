@@ -1,4 +1,5 @@
 ﻿<%@ Master Language="C#" %>
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
@@ -54,10 +55,15 @@
         <div id="bottom-container">
             <div id="bottom" class="row">
                 <div class="columns">
-                    <asp:ContentPlaceHolder ID="Bottom" runat="server"></asp:ContentPlaceHolder>
+                    <asp:ContentPlaceHolder ID="Copyright" runat="server"></asp:ContentPlaceHolder>
+                </div>
+                <div class="columns">
+                    <asp:ContentPlaceHolder ID="BottomNav" runat="server"></asp:ContentPlaceHolder>
                 </div>
             </div>
         </div>
     </form>
+    <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/Default/JS/jquery.hoverIntent.min.js"></script>
+    <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/Default/JS/main.js"></script>
 </body>
 </html>
