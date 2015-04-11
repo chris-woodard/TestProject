@@ -4,5 +4,7 @@
   <file>normalize.css</file>
   <file>foundation.min.css</file>
   <file>font-awesome.min.css</file>
-  <file>Main.css</file>
+  <file>Default.css</file>
+  <file>Medium.css</file>
+  <file>Large.css</file>
 </cssFiles>

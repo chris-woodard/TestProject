@@ -1,0 +1,21 @@
+@media only screen and (min-width: 40.063em) {
+
+    /* TOP */
+    
+    #top { margin-top:0; }
+    #top > .columns:first-child .sfContentBlock { text-align:left; margin-top:.45rem; }
+    #top > .columns:last-child { margin-top:0; }
+    #page-controls { float:right; }
+
+    /* LANGUAGE SELECTOR */
+    
+    #top .language-selector { float:left; }
+    #top .language-selector .current-language { border-left:1px solid #ddd; }
+
+    /* MIDDLE */
+
+    /* FOOTER */
+
+    #footer .columns .columns:last-child { margin-bottom:0; }
+
+}

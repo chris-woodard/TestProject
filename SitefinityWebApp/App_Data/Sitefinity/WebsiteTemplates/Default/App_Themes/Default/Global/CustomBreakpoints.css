@@ -1,0 +1,13 @@
+﻿@media only screen and (min-width: 48.063em) {
+
+    /* NAVIGATION */
+
+    #menu-toggle { display: none; }
+
+    #navigation nav { display:block; float:right; margin:.45rem 0 .6rem; }
+    #navigation nav > ul { margin:0; padding:0; }
+    #navigation nav > ul > li { list-style:none; float:left; }
+    #navigation nav > ul > li > a { color:inherit; text-transform:uppercase; font-size:.8rem; font-weight:bold; padding:1rem; }
+    #navigation nav > ul > li > a:hover { color:#0093cf; }
+
+}

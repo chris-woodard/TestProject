@@ -10,45 +10,50 @@
 <body>
     <form id="form1" runat="server">
         <asp:ScriptManager ID="scriptManager" runat="server"></asp:ScriptManager>
-        <div id="top-container">
-            <div id="top" class="row">
-                <div class="columns">
+        <div id="top-container" class="row">
+            <div id="top" class="clearfix">
+                <div class="columns medium-8">
                     <asp:ContentPlaceHolder ID="QuickContact" runat="server"></asp:ContentPlaceHolder>
                 </div>
-                <div class="columns">
-                    <asp:ContentPlaceHolder ID="TopControls" runat="server"></asp:ContentPlaceHolder>
+                <div class="columns medium-8">
+                    <div id="page-controls">
+                        <asp:ContentPlaceHolder ID="TopControls" runat="server"></asp:ContentPlaceHolder>
+                    </div>
                 </div>
             </div>
         </div>
         <header id="header" class="row">
-            <div id="logo" class="columns small-8">
+            <div id="logo" class="columns small-5">
                 <asp:ContentPlaceHolder ID="Logo" runat="server"></asp:ContentPlaceHolder>
             </div>
-            <div id="navigation" class="columns small-8">
+            <div id="navigation" class="columns small-11">
                 <asp:ContentPlaceHolder ID="Navigation" runat="server"></asp:ContentPlaceHolder>
             </div>
         </header>
         <div id="middle-container">
             <asp:ContentPlaceHolder ID="PageLayout" runat="server"></asp:ContentPlaceHolder>
         </div>
-        <div id="social-container">
-            <div id="social">
-                <asp:ContentPlaceHolder ID="Social" runat="server"></asp:ContentPlaceHolder>
-            </div>
-        </div>
         <div id="footer-container">
             <footer id="footer" class="row">
-                <div id="contact-info" class="columns">
-                    <asp:ContentPlaceHolder ID="ContactInfo" runat="server"></asp:ContentPlaceHolder>
+                <div class="columns medium-8">
+                    <div class="row">
+                        <div id="contact-info" class="columns large-8">
+                            <asp:ContentPlaceHolder ID="ContactInfo" runat="server"></asp:ContentPlaceHolder>
+                        </div>
+                        <div id="feed" class="columns large-8">
+                            <asp:ContentPlaceHolder ID="Feed" runat="server"></asp:ContentPlaceHolder>
+                        </div>
+                    </div>
                 </div>
-                <div id="feed" class="columns">
-                    <asp:ContentPlaceHolder ID="Feed" runat="server"></asp:ContentPlaceHolder>
-                </div>
-                <div id="newsletter-signup" class="columns">
-                    <asp:ContentPlaceHolder ID="Newsletter" runat="server"></asp:ContentPlaceHolder>
-                </div>
-                <div id="follow-us" class="columns">
-                    <asp:ContentPlaceHolder ID="FollowUs" runat="server"></asp:ContentPlaceHolder>
+                <div class="columns medium-8">
+                    <div class="row">
+                        <div id="newsletter-signup" class="columns large-8">
+                            <asp:ContentPlaceHolder ID="Newsletter" runat="server"></asp:ContentPlaceHolder>
+                        </div>
+                        <div id="follow-us" class="columns large-8">
+                            <asp:ContentPlaceHolder ID="FollowUs" runat="server"></asp:ContentPlaceHolder>
+                        </div>
+                    </div>
                 </div>
             </footer>
         </div>
