@@ -12,7 +12,12 @@
     #top .language-selector { float:left; }
     #top .language-selector .current-language { border-left:1px solid #ddd; }
 
-    /* MIDDLE */
+    /* CONTENT STYLING */
+
+    .page-layout > .columns { margin-bottom:0; }
+
+    .infobox p:last-child { margin-bottom:0; }
+    .infobox .columns { margin-bottom:0 }
 
     /* FOOTER */
 

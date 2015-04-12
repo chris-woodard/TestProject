@@ -1,6 +1,12 @@
 body { font-family:Open Sans; color:#666666; }
 p { color:inherit; font-size:1em; }
-h1,h2,h3,h4,h5,h6 { font-family:inherit; }
+h1,h2,h3,h4,h5,h6 { font-family:inherit; margin:0 0 1.25rem; }
+
+/* BUTTONS */
+
+.button { margin:0; text-align:center; font-weight:bold; background:#0093cf; border-radius:2px; font-size:.7rem; text-transform:uppercase; padding:.5rem 1rem; vertical-align:middle; line-height:1rem; }
+.button, .button:link, .button:visited, .button:active { color:#fff; }
+.button:hover { background:#303436; }
 
 /* TOP */
 
@@ -76,7 +82,31 @@ h1,h2,h3,h4,h5,h6 { font-family:inherit; }
 /* MIDDLE */
 
 #middle-container { border-top:1px solid #ddd; }
-.page-layout { margin-top:1rem; margin-bottom:1rem; padding:0 .85rem; }
+.page-layout { margin-top:1.5rem; margin-bottom:1.5rem; padding:0 .85rem; }
+
+.page-layout > .columns { margin-bottom:1.25rem; }
+.page-layout > .columns:last-child { margin-bottom:0; }
+
+.page-layout > .sidebar > div { font-size:.85rem; }
+.page-layout > .content > div { font-size:.85rem; }
+
+.page-layout > .content h1 { margin:0 0 1.25rem; }
+.page-layout > .content h2 { margin:0 0 1.25rem; }
+.page-layout > .content h3 { font-weight:700; font-size:1rem; border:0; margin:0 0 1.25rem; }
+.page-layout > .content p { margin:0 0 1.25rem; }
+
+/* CONTENT STYLING */
+
+.blockquote { font-family:Georgia, serif; font-size:.9rem; background:#fafafa; border-left:3px solid #0093cf; padding:.8rem 1.3rem; margin-bottom:1rem; }
+.blockquote p:last-child { margin-bottom:0; }
+
+.infobox { background:#f8f9f9; padding:1.5rem .875rem; border-radius:2px; }
+.infobox .columns > div { font-size:.8rem; }
+.infobox .columns > div h1, .infobox .columns > div h2, .infobox .columns > div h3, .infobox .columns > div h4, .infobox .columns > div h5, .infobox .columns > div h6 { margin-bottom:.65rem; }
+.infobox .button { display:block; }
+.infobox p:last-child { margin-bottom:0; }
+.infobox .columns { margin-bottom:1.25rem; }
+.infobox .columns:last-child { margin-bottom: 0; }
 
 /* SOCIAL FEED (BOTTOM) */
 
@@ -102,7 +132,7 @@ h1,h2,h3,h4,h5,h6 { font-family:inherit; }
 .sfnewsletterForm .sfMessage.sfMsgNegative { color:red; }
 .sfnewsletterForm .sfMessage.sfMsgPositive { color:green; }
 .sfnewsletterForm .sfTxt { margin:0; font-size:.7rem; font-family:inherit; background:#e6e6e6; float:left; width:55%; border-radius:2px; padding:0.5rem; height:2rem; }
-.sfnewsletterForm .sfnewsletterSubmitBtn { font-family:inherit; padding:0; background:#0093cf; color:#fff; border:0; border-radius:2px; font-size:.7rem; text-transform:uppercase; height:2rem; padding:0 1rem; margin-left:.25rem; }
+.sfnewsletterForm .sfnewsletterSubmitBtn { line-height:2rem; height:2rem; font-family:inherit; font-size:.7rem; padding:0 1rem; border:0; margin-left:.25rem; }
 
 /* FOOTER SOCIAL LINKS */
 
@@ -144,10 +174,3 @@ form .row .row .column,
 form .row .row .columns { padding: 0 .625em 0 .625em; }
 
 .sf_cols.row { font-size:1rem; }
-
-/* SITEFINITY FIXES */
-
-.sfPageEditor #top { height: auto; }
-.sfPageEditor .tabber-content .tabber-tab { display: block; }
-
-.alert a { color:inherit; text-decoration:underline; }

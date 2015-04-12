@@ -30,7 +30,7 @@
             <asp:TextBox ID="lastName" runat="server" CssClass="sfTxt" />
         </li>
     <div class="sfnewsletterSubmitBtnWrp">
-        <asp:Button ID="subscribeButton" runat="server" Text='<%$Resources:NewslettersResources, SubscribeToList %>' CssClass="sfnewsletterSubmitBtn" />
+        <asp:Button ID="subscribeButton" runat="server" Text='<%$Resources:NewslettersResources, SubscribeToList %>' CssClass="sfnewsletterSubmitBtn button" />
     </div>
     <sitefinity:Message ID="messageControl" runat="server" />
 </div>
